@@ -13,7 +13,7 @@ genBtn.addEventListener("click", function(event) {
     password = "";
     var length = 0
     length = prompt("how long would you like your password from 8-25?")
-    if (length >= 8, length <= 25) {
+    if (length >= 8) {
         password.length = length;
         var lowerQ = confirm("would you like lower cases in your password?");
         console.log(lowerQ)
@@ -38,12 +38,12 @@ genBtn.addEventListener("click", function(event) {
     }
 
     if (specialQ === true); {
-        password = password + special.charAt(Math.floor(Math.random() * Math.floor(special.length)));
+        password = password + special.charAt(Math.floor(Math.random() * Math.floor(special.length - 1)));
         console.log(password)
     }
 
     if (upperQ === true); {
-        password = password + RanNumber.charAt(Math.floor(Math.random() * Math.floor(RanNumber.length)));
+        password = password + RanNumber.charAt(Math.floor(Math.random() * Math.floor(RanNumber.length - 1)));
         console.log(password)
     }
 
