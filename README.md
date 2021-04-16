@@ -40,7 +40,7 @@ which wasnt very hard, we are writing a whole lot to the page on load.
 
 had to add some styling to get the over all product to look like this
 
-Assets\03-javascript-homework-demo.png
+![initial pic](Assets\03-javascript-homework-demo.png)
 
 next was the challenging part of this entire assignmnet,
 the javescript.
